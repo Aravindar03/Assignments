@@ -5,7 +5,7 @@ let creditAmount: number = 0;
 let debitAmount: number = 0;
 let accountBalance: number = 0;
 let suspiciousTransactionCounter: number = 0;
-let suspiciousTransactionArray: number[] = [];
+//let suspiciousTransactionArray: number[] = [];
 
 for (let i = 0; i < transactionHistory.length; i++) {
     if (transactionHistory[i] >= 0) {
